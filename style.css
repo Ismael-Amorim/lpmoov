@@ -384,12 +384,15 @@ body {
 }
 
 .tecidos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background: #fff;
     padding: 60px 20px;
     text-align: center;
+}
+
+.tecidos-flex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 
 .tecidos .subtitulo {
@@ -400,7 +403,6 @@ body {
     border-radius: 20px;
     display: inline-block;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 .tecidos h2 {
